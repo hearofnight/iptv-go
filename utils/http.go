@@ -19,7 +19,6 @@ func GetTestVideoUrl(w http.ResponseWriter) {
   fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\""+str_time+"\" tvg-logo=\"http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png\" group-title=\"列表更新时间\","+str_time)
   fmt.Fprintln(w, "http://live.hearofnight.cn:5244/d/alicloud/IPTV/StratMedia/%E5%B8%88%E5%A7%90%E4%B8%80%E5%8F%8C%E8%84%9A%EF%BC%8C%E4%BD%A0%E6%9C%89%E4%B8%80%E5%BC%A0%E5%98%B4.mp4")
 }
-}
 
 func GetLivePrefix(r *http.Request) string {
 	// 尝试从环境变量读取url
