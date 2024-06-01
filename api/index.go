@@ -87,7 +87,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
     // 其他链接
 	  default:
       //adurl := "http://159.75.85.63:5680/d/ad/roomad/playlist.m3u8"
-      adurl := "http://live.hearofnight.cn:5244/d/alicloud/IPTV/StratMedia/%E5%B8%88%E5%A7%90%E4%B8%80%E5%8F%8C%E8%84%9A%EF%BC%8C%E4%BD%A0%E6%9C%89%E4%B8%80%E5%BC%A0%E5%98%B4.mp4"
+      adurl := "http://apilive.989089.xyz:8880/hls/video/tips/ChannelNotBroadcasting.mp4"
       params := strings.Split(path, "/")
 
       // log.Println("request url: ", path)
