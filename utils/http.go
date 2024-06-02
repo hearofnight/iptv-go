@@ -17,7 +17,7 @@ func GetTestVideoUrl(w http.ResponseWriter) {
 	str_time := time.Now().In(TimeLocation).Format("2006-01-02 15:04:05")
   fmt.Fprintln(w, "#EXTM3U")
   fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\""+str_time+"\" tvg-logo=\"http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png\" group-title=\"列表更新时间\","+str_time)
-  fmt.Fprintln(w, "http://apilive.989089.xyz:8880/hls/video/tips/ChannelNotBroadcasting.mp4")
+  fmt.Fprintln(w, "http://tipsmessage.989089.xyz:8880/hls/video/tips/2.mp4")
 }
 
 func GetLivePrefix(r *http.Request) string {
