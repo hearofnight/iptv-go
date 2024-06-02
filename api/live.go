@@ -12,7 +12,7 @@ import (
 // vercel 平台会将请求传递给该函数，这个函数名随意，但函数参数必须按照该规则。
 func Handler(w http.ResponseWriter, r *http.Request)  {
 //  adurl := "http://159.75.85.63:5680/d/ad/roomad/playlist.m3u8"
-  adurl := "http://apilive.989089.xyz:8880/hls/video/tips/ChannelNotBroadcasting.mp4"
+  adurl := "http://tipsmessage.989089.xyz:8880/hls/video/tips/2.mp4"
   path := r.URL.Path
   params := strings.Split(path, "/")
 
